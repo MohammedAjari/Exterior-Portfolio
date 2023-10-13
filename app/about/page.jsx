@@ -25,11 +25,10 @@ export default function About() {
                     </div>
                     <div className="">
                         <p className="pb-8 tracking-wide" style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>
-                            As an Architects, We firmly believe in the need to reimagine architectural education in today's world. Our approach goes beyond conventional boundaries, integrating fresh perspectives on society while embracing modern methodologies and contemporary tools that empower creativity, enhance production, and facilitate communication. 
+                            As an Architects, We firmly believe in the need to reimagine architectural education in todays world. Our approach goes beyond conventional boundaries, integrating fresh perspectives on society while embracing modern methodologies and contemporary tools that empower creativity, enhance production, and facilitate communication. 
                             <br />
                             <br />
-
-                            Whether it's the art of crafting inspiring interiors or the mastery of sculpting captivating exteriors, our work is a testament to innovation and excellence. We bring to life designs that are not only visually stunning but also highly functional, reflecting the evolving needs of our clients and the world we live in.
+                            Whether its the art of crafting inspiring interiors or the mastery of sculpting captivating exteriors, our work is a testament to innovation and excellence. We bring to life designs that are not only visually stunning but also highly functional, reflecting the evolving needs of our clients and the world we live in.
                             <br />
                             <br />
                             <span className="text-xl font-extrabold tracking-tight" style={{ fontFamily: 'Montserrat, sans-serif' }}>The backpiperARCH, we share a belief in the transformational power of people united in a common purpose.</span>
