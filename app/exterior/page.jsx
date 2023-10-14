@@ -7,22 +7,22 @@ export default function page() {
     const projects = [
         {
             id: 1,
-            name: 'Nature-View Lounge for Relaxing and Enjoying the Outdoors ',
-            description: 'Relaxing Lounge with a Clean and Modern Design for Your Family, Infused with Charm. ',
+            name: 'Nature-View Lounge  ',
+            description: 'Relaxing Lounge with a Clean and Modern Design for Your Family. ',
             image: '/image3/IMG-20231006-WA0374.jpg',
             link: '',
         },
         {
             id: 2,
-            name: 'Lounge Seating Area for Relaxed Moments',
+            name: 'Seating Area for Relaxed Moments',
             description: 'Discover a Lounge Seating Area Designed for Comfort and Relaxation.',
             image: '/image3/IMG-20231006-WA0347.jpg',
             link: '',
         },
         {
             id: 3,
-            name: 'Vibrant Blossoms Adorn the Exterior Wall for Relaxing Moments',
-            description: 'Experience serene moments as colorful flowers adorn the exterior walls, creating a beautiful oasis for relaxation. ',
+            name: 'The Exterior Wall for Relaxing Moments',
+            description: 'Experience serene moments as colorful flowers adorn the exterior walls. ',
             image: '/image3/IMG-20231006-WA0293.jpg',
         },
     ];
@@ -38,9 +38,10 @@ export default function page() {
                         <div>
                             <Image src={project.image} width={480} height={380} alt="" className="w-full" />
                         </div>
-                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 p-12 text-xl text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
-                            <h1 className="text-2xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>{project.name}</h1>
-                            <p className="py-4 " style={{ fontFamily: 'Open Sans', fontSize: 'large' }}>{project.description}</p>
+                        <div className="absolute bottom-0 flex-col items-center justify-end w-full gap-32 lg:p-12 
+                    lg:text-xl text-xs text-white transition duration-300 ease-in-out translate-y-full bg-gradient-to-b from-transparent to-black group-hover:translate-y-0">
+                            <h1 className="text-xs lg:text-2xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>{project.name}</h1>
+                            <p className=" lg:py-4 text-xs " style={{}}>{project.description}</p>
                         </div>
                     </div>
 
