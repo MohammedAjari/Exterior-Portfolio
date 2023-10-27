@@ -1,6 +1,23 @@
 import Image from "next/image";
 import '../fonts.css';
 
+export const metadata = {
+    title: {
+        default:
+            "Interior Projects - Recent Interior Design Work | RKTECTURE Valsad",
+        template: "Interior Projects | RKTECTURE  ",
+    },
+    description:
+        "Explore our recent interior design projects in Valsad. See our portfolio of residential and commercial makeovers, and get inspired for your own design journey.",
+    keywords: [
+        "Interior Design Projects",
+        "Exterior Design Projects",
+        "Valsad Portfolio",
+        "Residential Transformations",
+        "Commercial Makeovers",
+        "Design Inspiration",
+    ],
+};
 
 export default function Projects() {
     const projects = [

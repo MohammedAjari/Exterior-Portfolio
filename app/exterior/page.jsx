@@ -3,6 +3,24 @@ import '../fonts.css';
 
 import React from 'react'
 
+
+export const metadata = {
+    title: {
+        default:
+            "Exterior Projects - Recent Exterior Design Work | RKTECTURE Valsad",
+        template: "Exterior Projects | RKTECTURE  ",
+    },
+    description:
+        "Explore our recent exterior design projects in Valsad. See our portfolio of residential and commercial makeovers, and get inspired for your own design journey.",
+    keywords: [
+        "Interior Design Projects",
+        "Exterior Design Projects",
+        "Valsad Portfolio",
+        "Residential Transformations",
+        "Commercial Makeovers",
+        "Design Inspiration",
+    ],
+};
 export default function page() {
     const projects = [
         {

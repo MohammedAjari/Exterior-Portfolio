@@ -6,6 +6,23 @@ import '../fonts.css';
 // import {GoogleMap,useLoadScript , Marker} from "@react-google-maps/api";
 import { TbArrowUpRight } from "react-icons/tb";
 
+
+export const metadata = {
+    title: {
+      default: "Contact Us - Get in Touch with RKTECTURE Valsad",
+      template: "Contact Us | RKTECTURE  ",
+    },
+    description:
+      "Have questions or want to discuss your project? Contact RKTECTURE in Valsad. We are here to help you bring your interior & exterior design vision to life.",
+    keywords: [
+      "Contact RKTECTURE",
+      "Interior Design Consultation",
+      "Exterior Design Consultation",
+      "Get in Touch",
+      "Valsad Design Studio",
+      "Project Discussion",
+    ],
+  };
 export default function Contact() {
     function Submit() {
         //event.preventDefault();

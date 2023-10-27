@@ -13,6 +13,7 @@ export default function Footer() {
                     <div>
                         <h2 className="pb-4 text-xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>COMPANY</h2>
                         <div className="flex flex-col ">
+                            <Link className="py-1 hover:underline" href="/">Home</Link>
                             <Link className="py-1 hover:underline" href="/about">About Us</Link>
                             <Link className="py-1 hover:underline" href="/projects">Our Projects</Link>
                             <Link className="py-1 hover:underline" href="/gallery">Gallery</Link>
@@ -32,6 +33,10 @@ export default function Footer() {
                         <h2 className="pb-4 text-xl font-semibold" style={{ fontFamily: 'Montserrat, sans-serif' }}>CONNECT</h2>
                         <div className="flex flex-col ">
                             <Link className="py-1 hover:underline" href="https://www.instagram.com/rk_tectures_28/">Instagram</Link>
+                            <Link className="py-1 hover:underline" href="https://www.facebook.com">Facebook</Link>
+                            <Link className="py-1 hover:underline" href="https://www.youtube.com">Youtube</Link>
+                            <Link className="py-1 hover:underline" href="https://www.linkedin.com">Linkedin</Link>
+                            <Link className="py-1 hover:underline" href="https://twitter.com">Twitter</Link>
                         </div>
                     </div>
                     <div className="flex items-center justify-center"> {/* Add this container for centering */}

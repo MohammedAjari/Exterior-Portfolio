@@ -1,4 +1,19 @@
-
+export const metadata = {
+    title: {
+      default: "Gallery - Interior & Exterior Design Portfolio | RKTECTURE Valsad",
+      template: "Gallery | RKTECTURE  ",
+    },
+    description:
+      "Explore our interior & exterior design portfolio in Valsad. View our stunning gallery showcasing a variety of styles, from modern to traditional designs.",
+    keywords: [
+      "Interior Design Portfolio",
+      "Exterior Design Portfolio",
+      "Gallery",
+      "Interior Styles",
+      "Design Showcase",
+      "Valsad Projects",
+    ],
+  };
 export default function Gallery() {
     return (
 
