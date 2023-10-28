@@ -19,11 +19,11 @@ export default function CompanySection() {
                 </div>
                 <div className="countUP">
                     <h2 style={{ fontSize: "xx-large" , fontFamily: 'Montserrat, sans-serif' , color:"ring-orange-400"}} class=" text-center ">Happy Customers</h2>
-                    <CountUp style={{ fontSize: "xxx-large", fontWeight: "500" }} start={0} end={100} width={128} height={128} className=" text-center text-orange-400" duration={2.5} /><span style={{ fontSize: "xxx-large", fontWeight: "500"  }} className=" text-center text-orange-400" >+</span>
+                    <CountUp style={{ fontSize: "xxx-large", fontWeight: "500" }} start={0} end={1000} width={128} height={128} className=" text-center text-orange-400" duration={2.5} /><span style={{ fontSize: "xxx-large", fontWeight: "500"  }} className=" text-center text-orange-400" >+</span>
                 </div>
                 <div className="countUP">
                     <h2 style={{ fontSize: "xx-large" , fontFamily: 'Montserrat, sans-serif' , color:"ring-orange-400"}} class=" text-center ">Experience in Years</h2>
-                    <CountUp style={{ fontSize: "xxx-large", fontWeight: "500" }} start={0} end={50} width={128} height={128} className=" text-center text-orange-400" duration={2.5} /><span style={{ fontSize: "xxx-large", fontWeight: "500"  }} className=" text-center text-orange-400" >+</span>
+                    <CountUp style={{ fontSize: "xxx-large", fontWeight: "500" }} start={0} end={30} width={128} height={128} className=" text-center text-orange-400" duration={2.5} /><span style={{ fontSize: "xxx-large", fontWeight: "500"  }} className=" text-center text-orange-400" >+</span>
                 </div>
                 <div className="countUP">
                     <h2 style={{ fontSize: "xx-large" , fontFamily: 'Montserrat, sans-serif' , color : "ring-orange-400"}} class=" text-center ">Partner Network</h2>
